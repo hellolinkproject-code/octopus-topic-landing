@@ -1,0 +1,26 @@
+{
+  "colors": {
+    "primary900": "#5A2FB3",
+    "primary700": "#7C40DB",
+    "primary500": "#A678F6",
+    "primary300": "#D9C6FB",
+    "primary100": "#F1EAFE",
+    "accent700": "#2CC7A0",
+    "accent500": "#6EE7C8",
+    "accent100": "#E9FBF7",
+    "secondary700": "#FF8A4C",
+    "secondary100": "#FFF3EC",
+    "gray900": "#111827",
+    "gray700": "#374151",
+    "gray500": "#6B7280",
+    "gray200": "#E5E7EB",
+    "background": "#F8F7FD",
+    "white": "#FFFFFF"
+  },
+  "radius": {
+    "button": 14,
+    "card": 22,
+    "panel": 28
+  },
+  "maxWidth": 1180
+}

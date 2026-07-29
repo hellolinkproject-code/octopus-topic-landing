@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="매일 짧고 재미있는 TOPIK 미션을 완료하고 포인트를 모아 54번 정밀 첨삭까지. 목표 급수를 향한 공부가 즐거워지는 옥토퍼스 토픽입니다.">
+  <meta name="theme-color" content="#ffffff">
+  <title>옥토퍼스 토픽 | 매일 재미있게, 목표 급수까지</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">본문으로 바로가기</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="옥토퍼스 토픽 홈">
+        <img src="assets/octopus-logo.svg" alt="옥토퍼스 토픽">
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="주요 메뉴" data-i18n-aria-label="navLabel">
+        <a href="#problem" data-i18n="navProblem">학습 고민</a>
+        <a href="#solution" data-i18n="navSolution">성장 방식</a>
+        <a href="#features" data-i18n="navFeatures">핵심 기능</a>
+        <a href="#process" data-i18n="navProcess">이용 과정</a>
+        <a href="#faq">FAQ</a>
+        <a class="button button-small" href="#trial" data-i18n="cta">무료 체험 신청하기</a>
+      </nav>
+
+      <div class="language-switcher">
+        <label class="sr-only" for="language-select" data-i18n="languageLabel">언어 선택</label>
+        <span aria-hidden="true">🌐</span>
+        <select id="language-select" aria-label="언어 선택" data-i18n-aria-label="languageLabel">
+          <option value="ko">한국어</option>
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="mn">Монгол</option>
+          <option value="ja">日本語</option>
+        </select>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-i18n-aria-label="menuOpen" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span aria-hidden="true"></span> <span data-i18n="heroEyebrow">지루한 암기 대신, 성장이 보이는 TOPIK 학습</span></p>
+          <h1 data-i18n-html="heroTitle">매일 한 걸음씩,<br><strong>원하는 TOPIK 급수</strong>까지.</h1>
+          <p class="hero-description" data-i18n="heroDescription">어휘·읽기·53번을 짧은 미션으로 즐기고 포인트를 모으세요. 모은 포인트로 54번 정밀 첨삭을 이용하면, 놓치던 약점을 알고 다시 쓰며 목표에 가까워질 수 있습니다.</p>
+          <div class="hero-actions">
+            <a class="button" href="#trial" data-i18n="cta">무료 체험 신청하기</a>
+            <a class="button button-secondary" href="#process"><span data-i18n="viewProcess">이용 과정 보기</span> <span aria-hidden="true">→</span></a>
+          </div>
+          <dl class="hero-stats" aria-label="옥토퍼스 토픽의 성장 경험" data-i18n-aria-label="heroStatsLabel">
+            <div><dt data-i18n="statMission">오늘의 미션</dt><dd data-i18n="statMissionDesc">부담 없이 재미있게</dd></div>
+            <div><dt data-i18n="statPoints">성장 포인트</dt><dd data-i18n="statPointsDesc">꾸준함이 보상이 되게</dd></div>
+            <div><dt data-i18n="statFeedback">54번 정밀 첨삭</dt><dd data-i18n="statFeedbackDesc">약점까지 구체적으로</dd></div>
+          </dl>
+        </div>
+        <div class="hero-visual" data-reveal>
+          <img src="assets/hero-illustration.svg" alt="AI 튜터 옥토와 오늘의 미션을 완료하고 포인트를 모아 정밀 첨삭을 이용하는 성장 흐름" data-i18n-alt="heroImageAlt">
+          <div class="hero-illustration-copy" aria-hidden="true">
+            <span class="hero-illustration-label label-mission" data-i18n="illustrationMission">오늘의 미션</span>
+            <span class="hero-illustration-label label-points" data-i18n="illustrationPoints">성장 포인트</span>
+            <span class="hero-illustration-label label-feedback" data-i18n="illustrationFeedback">정밀 첨삭</span>
+            <strong class="hero-illustration-caption" data-i18n="illustrationCaption">AI 튜터 옥토와 목표 급수까지 한 걸음씩</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="problem">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="section-label" data-i18n="problemLabel">학습자의 고민 · Pain Point</p>
+          <h2 data-i18n="problemTitle">공부는 하는데, 왜 실력은 그대로일까요?</h2>
+          <p data-i18n="problemIntro">혼자 문제만 풀다 보면 무엇이 늘었고 무엇을 고쳐야 하는지 알기 어렵습니다.</p>
+        </div>
+        <div class="card-grid card-grid-3">
+          <article class="card card-lavender" data-reveal>
+            <div class="card-art" aria-hidden="true">
+              <img src="assets/mascot-problem-feedback.png" alt="">
+            </div>
+            <h3 data-i18n="problem1Title">틀린 이유가 보이지 않습니다</h3>
+            <p data-i18n="problem1Desc">정답과 점수만 확인해서는 어떤 생각과 문장을 바꿔야 할지 알 수 없습니다.</p>
+          </article>
+          <article class="card card-mint" data-reveal>
+            <div class="card-art" aria-hidden="true">
+              <img src="assets/mascot-problem-cost.png" alt="">
+            </div>
+            <h3 data-i18n="problem2Title">쓰기 피드백은 자주 받기 어렵습니다</h3>
+            <p data-i18n="problem2Desc">실력을 키우려면 반복 첨삭이 필요하지만 매번 비용을 내기는 부담스럽습니다.</p>
+          </article>
+          <article class="card card-peach" data-reveal>
+            <div class="card-art" aria-hidden="true">
+              <img src="assets/mascot-problem-habit.png" alt="">
+            </div>
+            <h3 data-i18n="problem3Title">공부 습관이 오래가지 않습니다</h3>
+            <p data-i18n="problem3Desc">목표는 분명해도 매일 같은 문제풀이를 반복하면 금방 지치기 쉽습니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solution">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="section-label" data-i18n="solutionLabel">옥토퍼스 성장 루프 · Solution</p>
+          <h2 data-i18n="solutionTitle">재미있게 시작해, 실력으로 끝나는 학습</h2>
+          <p data-i18n="solutionIntro">작은 미션의 성취감이 꾸준함을 만들고, 꾸준함이 구체적인 피드백과 재작성으로 이어집니다.</p>
+        </div>
+        <div class="solution-grid">
+          <article class="solution-card" data-reveal>
+            <span class="solution-icon" aria-hidden="true">01</span>
+            <h3 data-i18n="solution1Title">오늘의 미션으로 쉽게 시작</h3>
+            <p data-i18n="solution1Desc">어휘·읽기·53번을 짧은 미션으로 나누어 매일 부담 없이 도전합니다.</p>
+          </article>
+          <article class="solution-card" data-reveal>
+            <span class="solution-icon" aria-hidden="true">02</span>
+            <h3 data-i18n="solution2Title">할수록 쌓이는 성장 포인트</h3>
+            <p data-i18n="solution2Desc">미션을 완료할 때마다 포인트와 성취가 쌓여 다음 학습을 시작할 힘이 됩니다.</p>
+          </article>
+          <article class="solution-card solution-card-accent" data-reveal>
+            <span class="solution-icon" aria-hidden="true">03</span>
+            <h3 data-i18n="solution3Title">약점을 알고 다시 쓰는 경험</h3>
+            <p data-i18n="solution3Desc">포인트로 54번 정밀 첨삭을 열고 감점 이유와 수정 방향을 확인한 뒤 다시 씁니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="features">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="section-label" data-i18n="featuresLabel">매일의 성장 도구 · Core Features</p>
+          <h2 data-i18n="featuresTitle">매일 돌아오고 싶은 TOPIK 루틴</h2>
+          <p data-i18n="featuresIntro">짧은 도전, 눈에 보이는 성장, 구체적인 피드백으로 공부의 재미를 이어 갑니다.</p>
+        </div>
+        <div class="card-grid card-grid-4">
+          <article class="feature-card" data-reveal><span>01</span><h3 data-i18n="feature1Title">오늘의 어휘 퀘스트</h3><p data-i18n="feature1Desc">시험에 자주 나오는 어휘를 짧은 문제로 만나고 매일 하나씩 익힙니다.</p></article>
+          <article class="feature-card" data-reveal><span>02</span><h3 data-i18n="feature2Title">읽기 약점 지도</h3><p data-i18n="feature2Desc">오답을 유형별로 모아 내가 자주 놓치는 읽기 패턴을 한눈에 확인합니다.</p></article>
+          <article class="feature-card" data-reveal><span>03</span><h3 data-i18n="feature3Title">53번 쓰기 챌린지</h3><p data-i18n="feature3Desc">그래프 핵심을 찾고 답안을 완성하며 기본 피드백으로 바로 고쳐 봅니다.</p></article>
+          <article class="feature-card featured" data-reveal><span>04</span><h3 data-i18n="feature4Title">54번 정밀 첨삭</h3><p data-i18n="feature4Desc">내용·논리·구성·문법·어휘를 항목별로 분석해 다음 답안의 방향을 찾습니다.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="section-heading section-heading-left" data-reveal>
+          <p class="section-label" data-i18n="processLabel">성장 과정 · How it works</p>
+          <h2 data-i18n="processTitle">목표 급수까지 성장하는 세 단계</h2>
+          <p data-i18n="processIntro">오늘의 작은 도전부터 어려운 54번 재작성까지, 학습의 다음 단계가 분명합니다.</p>
+        </div>
+        <ol class="steps">
+          <li class="step" data-reveal>
+            <span class="step-number">1</span>
+            <div><p class="step-kicker">START</p><h3 data-i18n="step1Title">짧은 미션에 도전</h3><p data-i18n="step1Desc">오늘의 어휘·읽기·53번 미션으로 가볍게 공부를 시작합니다.</p></div>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step-number">2</span>
+            <div><p class="step-kicker">GROW</p><h3 data-i18n="step2Title">성취와 포인트 쌓기</h3><p data-i18n="step2Desc">완료한 미션이 늘어날수록 공부 습관과 서비스 내부 포인트가 함께 쌓입니다.</p></div>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step-number">3</span>
+            <div><p class="step-kicker">LEVEL UP</p><h3 data-i18n="step3Title">첨삭받고 다시 쓰기</h3><p data-i18n="step3Desc">포인트로 54번 정밀 첨삭을 이용하고 약점을 반영해 답안을 완성합니다.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section reward-section" aria-labelledby="reward-title">
+      <div class="container reward-panel" data-reveal>
+        <div class="reward-copy">
+          <p class="section-label section-label-light" data-i18n="rewardLabel">꾸준함의 보상 · Reward Loop</p>
+          <h2 id="reward-title" data-i18n-html="rewardTitle">오늘의 미션이<br>54번 첨삭으로</h2>
+          <p data-i18n="rewardIntro">공부한 만큼 다음 단계가 열립니다.</p>
+        </div>
+        <div class="reward-character" aria-hidden="true">
+          <img src="assets/mascot-problem-habit.png" alt="">
+          <div class="reward-score"><strong>+50</strong><span data-i18n="todayPoints">오늘의 포인트</span></div>
+        </div>
+        <ol class="reward-journey" aria-label="학습 보상 과정">
+          <li><span class="journey-icon">✓</span><strong data-i18n="journeyMission">미션</strong></li>
+          <li><span class="journey-icon">P</span><strong data-i18n="journeyPoints">포인트</strong></li>
+          <li><span class="journey-icon">✎</span><strong data-i18n="journeyFeedback">첨삭</strong></li>
+          <li><span class="journey-icon">↑</span><strong data-i18n="journeyGrowth">성장</strong></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section benefits-section" id="benefits">
+      <div class="container benefit-layout">
+        <div class="benefit-copy" data-reveal>
+          <p class="section-label" data-i18n="benefitsLabel">기대할 수 있는 변화 · Expected Effect</p>
+          <h2 data-i18n-html="benefitsTitle">매일 조금씩,<br>실력은 분명하게.</h2>
+          <p data-i18n="benefitsIntro">약점을 알고 다시 쓰는 순간, 공부가 성장으로 바뀝니다.</p>
+          <div class="growth-track" aria-label="작은 미션부터 목표 급수까지의 성장">
+            <span data-i18n="growthMission">오늘의 미션</span><b aria-hidden="true">→</b><span data-i18n="growthAnswer">달라진 답안</span><b aria-hidden="true">→</b><strong data-i18n="growthGoal">목표 급수</strong>
+          </div>
+        </div>
+        <div class="benefit-visual" data-reveal>
+          <img class="benefit-mascot" src="assets/mascot-problem-feedback.png" alt="답안을 살펴보며 약점을 찾는 옥토 캐릭터">
+          <div class="benefit-cards">
+            <div><span aria-hidden="true">◎</span><strong data-i18n="benefitWeakness">약점 발견</strong></div>
+            <div><span aria-hidden="true">✎</span><strong data-i18n="benefitRewrite">다시 쓰기</strong></div>
+            <div><span aria-hidden="true">↗</span><strong data-i18n="benefitChange">변화 확인</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="audience">
+      <div class="container target-panel" data-reveal>
+        <div class="target-intro">
+          <div>
+            <p class="section-label" data-i18n="audienceLabel">이런 분께 추천 · For You</p>
+            <h2 data-i18n-html="audienceTitle">옥토와 함께라면<br>잘 맞을 거예요</h2>
+          </div>
+          <img src="assets/mascot-problem-cost.png" alt="학습 자료와 피드백 판을 든 옥토 캐릭터">
+        </div>
+        <div class="target-grid" role="list" aria-label="추천 학습자 유형">
+          <div role="listitem"><span aria-hidden="true">★</span><strong data-i18n-html="audience1">TOPIK II<br>4~6급 목표</strong></div>
+          <div role="listitem"><span aria-hidden="true">↗</span><strong data-i18n-html="audience2">공부해도<br>실력이 정체됨</strong></div>
+          <div role="listitem"><span aria-hidden="true">✎</span><strong data-i18n-html="audience3">쓰기 감점이<br>궁금함</strong></div>
+          <div role="listitem"><span aria-hidden="true">♥</span><strong data-i18n-html="audience4">재미있는<br>공부 습관 필요</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container narrow">
+        <div class="section-heading" data-reveal>
+          <p class="section-label" data-i18n="faqLabel">자주 묻는 질문 · FAQ</p>
+          <h2 data-i18n="faqTitle">자주 묻는 질문</h2>
+        </div>
+        <div class="faq-list">
+          <article class="faq-item" data-reveal>
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-1"><span data-i18n="faq1Q">모은 포인트는 어디에 사용할 수 있나요?</span><span aria-hidden="true">+</span></button></h3>
+            <div class="faq-answer" id="faq-1" hidden><p data-i18n="faq1A">학습으로 모은 포인트는 54번 정밀 첨삭과 추가 학습 기능을 이용하는 데 사용할 수 있습니다.</p></div>
+          </article>
+          <article class="faq-item" data-reveal>
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-2"><span data-i18n="faq2Q">어떻게 꾸준한 공부를 도와주나요?</span><span aria-hidden="true">+</span></button></h3>
+            <div class="faq-answer" id="faq-2" hidden><p data-i18n="faq2A">어휘·읽기·53번을 짧은 미션으로 나누어 시작 부담을 낮춥니다. 미션을 완료하면 서비스 내부 포인트가 쌓이고, 이 포인트로 54번 정밀 첨삭을 이용하며 다음 목표를 만들 수 있습니다.</p></div>
+          </article>
+          <article class="faq-item" data-reveal>
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-3"><span data-i18n="faq3Q">제공되는 점수는 공식 TOPIK 점수인가요?</span><span aria-hidden="true">+</span></button></h3>
+            <div class="faq-answer" id="faq-3" hidden><p data-i18n="faq3A">아니요. 서비스가 제공하는 점수는 학습을 돕기 위한 예상 점수와 분석이며 공식 시험 결과를 보장하지 않습니다.</p></div>
+          </article>
+          <article class="faq-item" data-reveal>
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-4"><span data-i18n="faq4Q">무료 체험에서는 무엇을 경험할 수 있나요?</span><span aria-hidden="true">+</span></button></h3>
+            <div class="faq-answer" id="faq-4" hidden><p data-i18n="faq4A">어휘·읽기·쓰기 미션부터 포인트 적립, 54번 정밀 첨삭까지 이어지는 학습 흐름을 경험할 수 있습니다. 이용 일정과 방법은 신청자에게 안내해 드립니다.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trial-section" id="trial">
+      <div class="container trial-panel">
+        <div class="trial-copy" data-reveal>
+          <p class="section-label section-label-light" data-i18n="trialLabel">무료 체험 · Start Today</p>
+          <h2 data-i18n-html="trialTitle">혼자 고민하던 TOPIK 공부,<br>오늘부터 달라집니다</h2>
+          <p data-i18n="trialIntro">쉽게 시작하고, 재미있게 이어 가고, 달라진 답안을 확인해 보세요. 무료 체험 신청자에게 이용 일정과 방법을 안내해 드립니다.</p>
+          <ul class="trial-points">
+            <li data-i18n="trialPoint1">매일 가볍게 도전하는 TOPIK 미션</li>
+            <li data-i18n="trialPoint2">꾸준함을 보상하는 학습 포인트</li>
+            <li data-i18n="trialPoint3">약점을 알려 주는 54번 정밀 첨삭</li>
+          </ul>
+        </div>
+        <form class="trial-form" id="trial-form" novalidate data-reveal>
+          <div class="form-field">
+            <label for="nickname" data-i18n="nicknameLabel">이름 또는 닉네임</label>
+            <input id="nickname" name="nickname" type="text" autocomplete="name" placeholder="예: 민준" data-i18n-placeholder="nicknamePlaceholder" aria-describedby="nickname-error" required>
+            <p class="field-error" id="nickname-error" aria-live="polite"></p>
+          </div>
+          <div class="form-field">
+            <label for="email" data-i18n="emailLabel">이메일</label>
+            <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="name@example.com" aria-describedby="email-error" required>
+            <p class="field-error" id="email-error" aria-live="polite"></p>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="current-level" data-i18n="currentLevelLabel">현재 급수</label>
+              <select id="current-level" name="currentLevel">
+                <option value="" data-i18n="unknown">모름</option>
+                <option>1급</option><option>2급</option><option>3급</option><option>4급</option><option>5급</option><option>6급</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="target-level" data-i18n="targetLevelLabel">목표 급수</label>
+              <select id="target-level" name="targetLevel" aria-describedby="target-level-error" required>
+                <option value="" data-i18n="selectOption">선택</option>
+                <option>3급</option><option>4급</option><option>5급</option><option>6급</option>
+              </select>
+              <p class="field-error" id="target-level-error" aria-live="polite"></p>
+            </div>
+          </div>
+          <button class="button button-full" type="submit" data-i18n="cta">무료 체험 신청하기</button>
+          <p class="form-note" data-i18n="privacyNote">입력 내용은 이 브라우저에만 저장되며 외부 서버로 전송되지 않습니다.</p>
+          <div class="form-success" id="form-success" role="status" tabindex="-1" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="assets/octopus-logo.svg" alt="옥토퍼스 토픽">
+      <p data-i18n="footerTagline">매일의 작은 성취를 목표 급수로 연결하는 TOPIK 학습 서비스</p>
+      <nav class="footer-nav" aria-label="푸터 메뉴">
+        <a href="#solution" data-i18n="footerAbout">서비스 소개</a>
+        <a href="#process" data-i18n="navProcess">이용 과정</a>
+        <a href="#faq">FAQ</a>
+        <a href="#trial" data-i18n="cta">무료 체험 신청하기</a>
+      </nav>
+      <p>© <span id="current-year"></span> Octopus TOPIK.</p>
+    </div>
+  </footer>
+
+  <div class="success-modal" id="success-modal" hidden>
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description" tabindex="-1">
+      <button class="modal-close" type="button" aria-label="알림 닫기" data-i18n-aria-label="closeAlert" data-modal-close>×</button>
+      <div class="modal-character" aria-hidden="true">
+        <img src="assets/mascot-problem-habit.png" alt="">
+        <span>✓</span>
+      </div>
+      <p class="section-label" data-i18n="modalLabel">신청 정보 저장 완료</p>
+      <h2 id="modal-title" data-i18n-html="modalTitle">목표 급수를 향한<br>첫걸음을 시작했어요!</h2>
+      <p id="modal-description" data-i18n="privacyNote">입력한 정보는 이 브라우저에만 저장되며 외부 서버로 전송되지 않습니다.</p>
+      <button class="button button-full" type="button" data-modal-close data-i18n="confirm">확인</button>
+    </div>
+  </div>
+</body>
+</html>
