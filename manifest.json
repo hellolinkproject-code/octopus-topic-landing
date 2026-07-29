@@ -1,0 +1,31 @@
+{
+  "project": "Octopus Topic Sprint Mission 5 Landing Page",
+  "stack": [
+    "HTML5",
+    "CSS3",
+    "Vanilla JavaScript"
+  ],
+  "deployment": "Vercel static",
+  "entry": "index.html",
+  "files": [
+    "AGENTS.md",
+    "CODEX_PROMPT.md",
+    "README.md",
+    "assets/design-reference.png",
+    "assets/design-tokens.json",
+    "assets/hero-illustration.svg",
+    "assets/favicon.svg",
+    "assets/octopus-logo.svg",
+    "docs/01_PROJECT_BRIEF.md",
+    "docs/02_LANDING_COPY.md",
+    "docs/03_WIREFRAME.md",
+    "docs/04_DESIGN_SYSTEM.md",
+    "docs/05_INTERACTIONS.md",
+    "docs/06_ACCEPTANCE_CRITERIA.md",
+    "docs/07_VERCEL_DEPLOY.md",
+    "index.html",
+    "script.js",
+    "styles.css",
+    "vercel.json"
+  ]
+}
